@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'mitron_website.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd64suktnlrdcfp',
+        'USER': 'edvchqkxxdugdy',
+        'PASSWORD': '17bf61b28773b1b05572682558fc3a4035d863d5289ada1b74c6028a636bf3ff',
+        'HOST': 'ec2-54-247-94-127.eu-west-1.compute.amazonaws.com',
+        'PORT': '5432'
     }
 }
 
