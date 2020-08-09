@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'dictionary.apps.DictionaryConfig',
     'my_mitron.apps.MyMitronConfig',
     'django.contrib.admin',
     'django.contrib.auth',
